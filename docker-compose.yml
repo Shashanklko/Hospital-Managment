@@ -1,0 +1,7 @@
+services:
+  hospital-app:
+    build: .
+    container_name: hospital-management-system
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
